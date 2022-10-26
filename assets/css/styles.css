@@ -24,7 +24,7 @@ a:active{
 /* sets font and background of webpage */
 body{
 	font-family: 'Open Sans', 'Arial', 'Tahoma', sans-serif;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background.jpg");  
     background-size: cover;
     background-color: #000000;
     background-repeat: no-repeat;
@@ -102,10 +102,11 @@ header{
 }
 
 #logo{
-    width: 5%;
+    width: 100px;
     position: absolute;
     left: 8%;
 }
+
 .container{
     background-color: #ffffffda;
     padding: 2%;
@@ -195,6 +196,13 @@ footer{
     header{
         margin-left: 2%;
         margin-right: 2%;
+        font-size: 80%;
+    }
+
+    #logo{
+        width: 80px;
+        position: absolute;
+        left: 3%;
     }
 
     .container{
@@ -224,6 +232,13 @@ footer{
 }
 
 @media screen and (max-width: 600px){
+    #logo{
+        width: 50px;
+        position: absolute;
+        left: 3%;
+        top: 3%;
+    }
+    
     /* nav items */
     .button{
         width: 70px;
