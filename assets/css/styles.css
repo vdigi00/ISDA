@@ -20,21 +20,15 @@ a:active{
     color: #a30000;
 }
 
+
 /* sets font and background of webpage */
 body{
-	font-family:'Franklin Gothic', 'Arial', 'Tahoma', sans-serif;
+	font-family: 'Open Sans', 'Arial', 'Tahoma', sans-serif;
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-color: #000000;
     background-repeat: no-repeat;
 }
-
-.logo{
-    height: 3em;
-    max-width: 100%;
-    padding-right: 10px;
-}
-
 
 /* nav items */
 nav{
