@@ -1,0 +1,253 @@
+/* removes default margins */
+*{ 
+	margin: 0;
+}
+
+/* handles link colors */
+a:link{
+    color: #111EA0;
+}
+  
+a:visited{
+    color: #4c00ff;
+}
+  
+a:hover{
+    color: #d400ff;
+}
+  
+a:active{
+    color: #a30000;
+}
+
+/* sets font and background of webpage */
+body{
+	font-family:'Franklin Gothic', 'Arial', 'Tahoma', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-color: #000000;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    height: 3em;
+    max-width: 100%;
+    padding-right: 10px;
+}
+
+
+/* nav items */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: #5C8BF6;
+}
+
+.button{
+    transition: 0.3s;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 110%;
+    border-left: solid #5C8BF6 5px;
+    border-right: solid #5C8BF6 5px;
+    background-color: #5C8BF6;
+    font-family : inherit;
+    color: #FFFFFF;
+}
+
+.button:hover{
+    transition: 0.3s;
+    background-color: #26385d;
+    color: #FFFFFF;
+}
+
+.options{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    font-size: 120%;
+    margin-left: 5px;
+    min-width: 140px;
+    box-shadow: 0px 2px 8px 0px #00000020;
+    z-index: 1;
+}
+
+.options a{
+    transition: 0.1s;
+    color: black;
+    padding: 10%;
+    max-width: 140px;
+    text-decoration: none;
+    display: block;
+}
+
+.options a:hover{
+    transition: 0.2s;
+    background-color: #26385d;
+    color: #FFFFFF;
+}
+
+.navitem:hover .options{
+    display: block;
+}
+
+/* content items */
+header{
+    background-color: #000000a2;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 10px;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#logo{
+    width: 5%;
+    position: absolute;
+    left: 8%;
+}
+.container{
+    background-color: #ffffffda;
+    padding: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.left{
+    float: left;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+.right{
+    float: right;
+    margin-left: 2%;
+    border-radius: 10px;
+    max-height: 500px;
+    max-width: 30%;
+}
+
+.center{
+    display: none;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 120%;
+    line-height: 150%;
+    margin-top: 1%;
+}
+
+img{
+    max-width: 100%;
+}
+
+hr{
+    margin-bottom: 1%;
+}
+
+li{
+    margin-top: 1%;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* media queries */
+@media screen and (max-width: 1150px){
+    /* nav items */
+    nav{
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .button{
+        width: 95px;
+        height: 40px;
+        font-size: 90%;
+        border-left: solid #5C8BF6 3px;
+        border-right: solid #5C8BF6 3px;
+    }
+
+    .options{
+        font-size: 80%;
+        min-width: 85px;
+        margin: 0;
+        margin-left: 5px;
+    }
+
+    .options a{
+        max-width: 85px;
+    }
+
+    /* content */
+    body{
+        font-size: 90%;
+    }
+
+    header{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .container{
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .banner{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .right{
+        display: none;
+        height: 400px;
+    }
+
+    .center{
+        max-height: 400px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    /* nav items */
+    .button{
+        width: 70px;
+        height: 30px;
+        font-size: 80%;
+    }
+
+    .options{
+        font-size: 60%;
+        min-width: 60px;
+    }
+
+    .options a{
+        max-width: 60px;
+    }
+
+    /* content */
+    body{
+        font-size: 80%;
+    }
+}
