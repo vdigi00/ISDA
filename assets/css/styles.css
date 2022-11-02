@@ -28,27 +28,48 @@ body{
     background-size: contain cover;
     background-color: #091722;
     background-repeat: no-repeat;
+    font-size: 90%;
 }
 
 /* nav items */
+header{
+    display: flex;
+    color: #FFFFFF;
+    position: absolute;
+    left: 2.5%;
+    top: 0.75%;
+}
+
+header br{
+    display: none;
+}
+
+#logo{
+    width: 100px;
+}
+
+#title {
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
 nav{
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 7%;
-    margin-right: 7%;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: #5C8BF6;
+    justify-content: end;
 }
 
 .button{
     transition: 0.3s;
     border: none;
     width: 150px;
-    height: 50px;
+    height: 110px;
     font-size: 110%;
-    border-left: solid #5C8BF6 5px;
-    border-right: solid #5C8BF6 5px;
+    border-left: solid #5C8BF6 3px;
+    border-right: solid #5C8BF6 3px;
     background-color: #5C8BF6;
     font-family : inherit;
     color: #FFFFFF;
@@ -91,27 +112,11 @@ nav{
 }
 
 /* content items */
-header{
-    background-color: #000000a2;
-    margin-left: 7%;
-    margin-right: 7%;
-    padding: 10px;
-    align-items: center;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-#logo{
-    width: 100px;
-    position: absolute;
-    left: 8%;
-}
-
 .container{
     background-color: #ffffffda;
     padding: 2%;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -161,20 +166,23 @@ footer{
 
 /* media queries */
 @media screen and (max-width: 1150px){
-    /* nav items */
-    nav{
-        margin-left: 2%;
-        margin-right: 2%;
-        padding-left: 25%;
-        padding-right: 25%;
+    #logo{
+        width: 65px;
+    }
+    
+    #title {
+        top: 12px;
+        font-size: 90%;
     }
 
+    header br{
+        display: inline;
+    }
+    
     .button{
-        width: 95px;
-        height: 40px;
+        width: 75px;
+        height: 75px;
         font-size: 90%;
-        border-left: solid #5C8BF6 3px;
-        border-right: solid #5C8BF6 3px;
     }
 
     .options{
@@ -191,18 +199,6 @@ footer{
     /* content */
     body{
         font-size: 90%;
-    }
-
-    header{
-        margin-left: 2%;
-        margin-right: 2%;
-        font-size: 80%;
-    }
-
-    #logo{
-        width: 80px;
-        position: absolute;
-        left: 3%;
     }
 
     .container{
@@ -235,7 +231,7 @@ footer{
     /* nav items */
     .button{
         width: 70px;
-        height: 30px;
+        height: 60px;
         font-size: 80%;
     }
 
@@ -260,6 +256,10 @@ footer{
         top: 2%;
     }
     
+    #title {
+        left: 65px;
+    }
+
     header{
         font-size: 70%;
     }
