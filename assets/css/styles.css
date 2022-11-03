@@ -26,8 +26,7 @@ body{
 	font-family: 'Open Sans', 'Arial', 'Tahoma', sans-serif;
     background-image: url("../images/background.jpg");  
     background-size: contain cover;
-    background-color: #091722;
-    background-repeat: no-repeat;
+    background-color: #180807;
     font-size: 90%;
 }
 
@@ -38,6 +37,8 @@ header{
     position: absolute;
     left: 2.5%;
     top: 0.75%;
+    align-items: center;
+    float: left;
 }
 
 header br{
@@ -50,7 +51,6 @@ header br{
 
 #title {
     position: relative;
-    top: 30px;
     left: 15px;
 }
 
@@ -171,7 +171,6 @@ footer{
     }
     
     #title {
-        top: 12px;
         font-size: 90%;
     }
 
@@ -251,13 +250,10 @@ footer{
 
     #logo{
         width: 50px;
-        position: absolute;
-        left: 3%;
-        top: 2%;
     }
     
     #title {
-        left: 65px;
+        left: 10px;
     }
 
     header{
