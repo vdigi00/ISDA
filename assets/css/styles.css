@@ -112,6 +112,13 @@ nav{
 }
 
 /* content items */
+.banner{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    width: 96%;
+}
+
 .container{
     background-color: #ffffffda;
     padding: 2%;
@@ -144,6 +151,7 @@ p{
     font-size: 120%;
     line-height: 150%;
     margin-top: 1%;
+    margin-top: 1%;
 }
 
 img{
@@ -156,6 +164,7 @@ hr{
 
 li{
     margin-top: 1%;
+    font-size: 120%;
 }
 
 /* footer */
@@ -179,16 +188,16 @@ footer{
     }
     
     .button{
-        width: 75px;
+        width: 95px;
         height: 75px;
         font-size: 90%;
     }
 
     .options{
         font-size: 80%;
-        min-width: 85px;
+        min-width: 90px;
         margin: 0;
-        margin-left: 5px;
+        margin-left: 2px;
     }
 
     .options a{
@@ -197,7 +206,7 @@ footer{
 
     /* content */
     body{
-        font-size: 90%;
+        font-size: 80%;
     }
 
     .container{
@@ -205,11 +214,6 @@ footer{
         margin-right: 2%;
         padding-left: 3%;
         padding-right: 3%;
-    }
-
-    .banner{
-        margin-left: 2%;
-        margin-right: 2%;
     }
 
     .right{
@@ -236,7 +240,7 @@ footer{
 
     .options{
         font-size: 60%;
-        min-width: 60px;
+        min-width: 62px;
     }
 
     .options a{
@@ -245,7 +249,7 @@ footer{
 
     /* content */
     body{
-        font-size: 80%;
+        font-size: 70%;
     }
 
     #logo{
