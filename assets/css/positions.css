@@ -1,0 +1,15 @@
+
+
+.position-container{
+  margin-top: 2%;
+  background-color: green;
+  padding: 10px;
+}
+
+.position-title{
+  font-size: 200%;
+}
+
+.position-subtitle{
+  margin: 0 0 40px;
+}
