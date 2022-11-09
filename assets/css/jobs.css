@@ -1,0 +1,27 @@
+
+.job_description{
+    width: 50%;
+}
+
+.job_content{
+    display: flex;
+}
+
+.responsabilities{
+    width: 50%;
+
+}
+
+.requirements{
+    width: 50%;
+}
+
+.extra_information{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.benefits{
+    margin-bottom: 5%;
+}

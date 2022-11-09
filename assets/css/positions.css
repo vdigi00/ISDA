@@ -1,0 +1,26 @@
+
+
+.position-container{
+  margin-top: 2%;
+  padding: 10px;
+  background-color: rgba(182, 182, 182, 0.459);
+  border-radius: 10px;
+}
+
+.position-container:hover{
+  filter: drop-shadow(0 0 0.2rem rgb(91, 91, 91));
+  transition: 2s;
+}
+
+.position-title{
+  font-size: 200%;
+}
+
+.position-subtitle{
+  margin: 0 0 40px;
+}
+
+.position-container a{
+  text-decoration: none;
+  color: black;
+}
