@@ -25,3 +25,27 @@
 .benefits{
     margin-bottom: 5%;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    .job_description{
+        width: 100%;
+    }
+
+    .job_content{
+        display: block;
+    }
+
+    .requirements{
+        width: 100%;
+    }
+
+    .responsabilities{
+        width: 100%;
+    }
+
+    .extra_information{
+        width: 100%;
+    }
+
+}
