@@ -1,0 +1,25 @@
+
+
+
+.services-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.services-card{
+    display: block;
+    width: 40%;
+    height: 500px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.services-card img{
+    width: 40%;
+}
+
+.card-title{
+    text-align: center;
+}
+
