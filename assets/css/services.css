@@ -1,0 +1,33 @@
+
+
+
+.services-container{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.services-card{
+    display: block;
+    width: 300px;
+    min-height: 500px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.card-title{
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0.349);
+    color: white;
+}
+
+.space-debris-collector{
+    background-image: url('../images/services-1.jpg');
+    background-size: cover;
+}
+
+.robot-arm{
+    background-image: url('../images/services-2.jpg');
+    background-size: cover;
+}
