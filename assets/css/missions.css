@@ -1,0 +1,19 @@
+
+
+.mission-card{
+    margin-top: 5%;
+    width: 80%;
+    background-color: rgba(138, 138, 138, 0.185);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.mission-information{
+    margin: 0;
+    padding: 0;   
+}
+
+.mission-card div{
+    margin-top: 2%;
+}
