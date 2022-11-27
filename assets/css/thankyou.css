@@ -1,0 +1,10 @@
+.thankyou-container{
+    display: grid;
+    place-items: center;
+    height: 20vh;
+    background-color: #ffffffda;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

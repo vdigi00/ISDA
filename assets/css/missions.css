@@ -1,7 +1,7 @@
 
 
 .mission-card{
-    margin-top: 5%;
+    margin-top: 2%;
     width: 80%;
     background-color: rgba(138, 138, 138, 0.185);
     margin-left: auto;
@@ -16,4 +16,12 @@
 
 .mission-card div{
     margin-top: 2%;
+}
+
+.mission-image{
+    display: grid;
+    place-items: center;
+}
+
+.mission-image img{
 }
