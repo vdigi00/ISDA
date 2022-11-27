@@ -1,0 +1,25 @@
+.homecontainer{
+    /* background-color: #ffffffda; */
+    background-image: url('../images/space-debris.jpg');
+    background-size: cover;
+    
+    width: 96%;
+    height: 700px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-style: bold;
+    font-size: 200%;
+}
+
+.homecontainer div h1{
+    filter: drop-shadow(0px 0px 10px #3d3d3d);
+    text-align: center;
+}
+
+.homecontainer div h4{
+    text-align: center;
+    filter: drop-shadow(0px 0px 10px #3d3d3d);
+}
